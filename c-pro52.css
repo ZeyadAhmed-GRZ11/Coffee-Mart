@@ -1,0 +1,31 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.card-img-top{
+    border-radius: 40px;
+    padding: 20px;
+} 
+ .card{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    display: flex;
+} 
+.card-body{
+    padding: 20px;
+    margin-top: -15px;
+}
+.btn-primary{
+    border-radius: 50px;
+    width: 120px;
+    justify-content: center;
+}
+.btn-primary:hover{
+background-color: black;
+}
+
